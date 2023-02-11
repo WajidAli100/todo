@@ -6,8 +6,10 @@ import Todo from './todo'
 //const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  return <>
+  return (
+         
+         <>
          <Todo/>
          </>
-  
+  );
 }
